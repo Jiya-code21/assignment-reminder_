@@ -1,0 +1,72 @@
+body {
+    font-family:Arial, sans-serif;
+    background-color:white;
+    margin:0;
+    padding:0;
+}
+
+.container {
+    max-width:600px;
+    margin:50px auto;
+    padding:20px;
+    background: #ffffff;
+    border-radius:8px;
+    box-shadow:0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,h2{
+    text-align:center;
+    color:#333333;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+form input,form textarea,form button {
+    padding:10px;
+    border:2px solid #cccccc;
+    border-radius:4px;
+}
+
+form button {
+    background:#8b12f4;
+    color: white;
+    border:none;
+    cursor:pointer;
+}
+
+form button:hover {
+    background:#a856d7;
+}
+
+ul {
+    list-style:none;
+    padding:0;
+}
+
+ul li {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+ul li.overdue{
+    background: #bf2422;
+}
+
+ul li.upcoming{
+    background: #49b562;
+}
+
+.pdf-btns{
+    display:flex;
+    gap:10px;
+    margin-top:10px;
+}
